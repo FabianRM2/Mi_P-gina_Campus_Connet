@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colaboración - Campus Connect</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f6fa;
+    }
+    header {
+      background-color: #1a2e6c;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+      color: #1a2e6c;
+      font-size: 1.2rem;
+    }
+    .card p {
+      color: #333;
+      font-size: 0.95rem;
+    }
+    .regresar {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .regresar a {
+      background-color: #1a2e6c;
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 1.6rem;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .regresar a:hover {
+      background-color: #314b8a;
+    }
+    footer {
+      background-color: #1a2e6c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Iniciativas de Colaboración</header>
+
+  <div class="container">
+    <div class="card">
+      <img src="img/Proyectos estudiantiles.png" alt="Proyectos estudiantiles">
+      <h3>Proyectos estudiantiles</h3>
+      <p>Súmate a iniciativas impulsadas por estudiantes para generar impacto en la comunidad universitaria.</p>
+    </div>
+    <div class="card">
+      <img src="img/Mentorías académicas.png" alt="Mentorías académicas">
+      <h3>Mentorías académicas</h3>
+      <p>Comparte tus conocimientos y experiencias apoyando a otros estudiantes en su desarrollo académico.</p>
+    </div>
+    <div class="card">
+      <img src="img/Voluntariado universitario.png" alt="Voluntariado universitario">
+      <h3>Voluntariado universitario</h3>
+      <p>Participa en actividades sociales y comunitarias para contribuir al bienestar colectivo.</p>
+    </div>
+  </div>
+
+  <div class="regresar">
+    <a href="index.html">← Regresar al inicio</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Campus Connect. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
